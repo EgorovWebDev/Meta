@@ -1,0 +1,26 @@
+$inter: "Inter";
+$dmMomo: "Dm Mono";
+$audiowide: "Audiowide";
+$lime: #8dfd1b;
+$gray: #222222;
+$light-gray: #A8A8A8;
+$purple: #42006a;
+
+.button-lime {
+	background-color: $lime;
+	color: #000000;
+	font-family: $dmMomo;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-black {
+	background-color: inherit;
+	border: 1px solid $lime;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: $dmMomo;
+	text-align: center;
+}

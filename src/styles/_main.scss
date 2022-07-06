@@ -1,0 +1,32 @@
+main {
+	padding-left: 72px;
+	display: flex;
+	margin-top: 100px;
+	.main-text {
+		width: 40%;
+		&__title {
+			font-size: 51px;
+			font-family: $audiowide;
+			line-height: 60px;
+			text-transform: uppercase;
+			margin-top: 112px;
+		}
+		&__descr {
+			font-family: $inter;
+			font-size: 16px;
+			line-height: 25px;
+			margin-top: 43px;
+		}
+	}
+	.main-button {
+		margin-top: 115px;
+		width: 205px;
+		height: 60px;
+	}
+	.main-img {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 60%;
+	}
+}

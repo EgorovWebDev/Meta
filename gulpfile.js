@@ -5,25 +5,25 @@ let source_folder = "src";
 let path = {
   build: {
     html: project_folder + "/",
-    css: project_folder + "/css/",
+    css: project_folder + "/styles/",
     js:  project_folder + "/js/",
     img:  project_folder + "/img/",
     fonts:  project_folder + "/fonts/",
   },
   src: {
     html: source_folder + "/*.html",
-    css: source_folder + "/sass/style.sass",
+    css: source_folder + "/styles/style.scss",
     js:  source_folder + "/js/*.js",
     img:  source_folder + "/img/**/*.{png,jpg,svg,gif,ico,webp}",
     fonts:  source_folder + "/fonts/*",
   },
   watch: {
     html: source_folder + "/**/*.html",
-    css: source_folder + "/sass/**/*.sass",
+    css: source_folder + "/styles/**/*.{scss,sass}",
     js:  source_folder + "/js/**/*.js",
     img:  source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
   },
-  clean: "./" + project_folder + "/css/"
+  clean: "./" + project_folder + "/styles/"
 }
 
 let {src,dest } = require('gulp'),
