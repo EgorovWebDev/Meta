@@ -1,0 +1,54 @@
+.artists {
+	margin-top: 103px;
+	text-align: center;
+	&__title {
+		padding-left: 180px;
+		font-family: $audiowide;
+		font-size: 79px;
+		line-height: 88px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		overflow: hidden;
+		position: relative;
+		&::before {
+			content: "Artists";
+			position: absolute;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			left: -50%;
+			text-transform: uppercase;
+		}
+		&::after {
+			content: "Artists";
+			position: absolute;
+			top: 0;
+			right: -59%;
+			height: 100%;
+			width: 100%;
+			text-transform: uppercase;
+		}
+	}
+}
+.artists-row {
+	max-width: 1160px;
+	width: 100%;
+	margin-top: 120px;
+	padding-left: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px;
+}
+.artists-item {
+	text-align: center;
+	&__img {
+		width: 245px;
+		height: 245px;
+	}	
+	&__name {
+		font-family: $dmMomo;
+		font-size: 16px;
+		line-height: 24px;
+		margin-top: 20px;
+	}
+}
