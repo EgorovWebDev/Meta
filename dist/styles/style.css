@@ -465,6 +465,111 @@ main .main-img {
   margin-top: 20px;
 }
 
+.story {
+  margin-top: 240px;
+}
+
+.story__title {
+  font-family: "Audiowide";
+  font-size: 37px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+}
+
+.story__title span {
+  color: #A8A8A8;
+}
+
+.story-tabs {
+  padding-left: 40px;
+  max-width: 1160px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tabs .tab {
+  width: 282px;
+  height: 72px;
+  padding-left: 28px;
+  font-family: "Dm Mono";
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tabs .active {
+  background-color: #222222;
+  color: #8dfd1b;
+}
+
+.tabs-content {
+  width: 80%;
+  background-color: #42006a;
+}
+
+.tab-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px;
+}
+
+.tab__img {
+  width: 172px;
+  height: 253px;
+}
+
+.tab-text {
+  margin-left: 40px;
+  width: 60%;
+}
+
+.tab-text__title {
+  font-family: "Dm Mono";
+  color: #8dfd1b;
+  font-size: 21px;
+  line-height: 32px;
+  margin-bottom: 28px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.tab-text__title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #8dfd1b;
+}
+
+.tab-text__descr {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+
 body {
   background-color: #000000;
   color: #ffffff;
