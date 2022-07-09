@@ -1,6 +1,5 @@
 .roadmap {
 	margin-top: 118px;
-	overflow: hidden;
 	&__bg {
 		width: 100%;
 		height: 240px;
@@ -125,7 +124,7 @@
 		}
 		&-purple {
 			&::after {
-				top: -19%;
+				top: -28%;
 				left: -80%;
 			}
 		}

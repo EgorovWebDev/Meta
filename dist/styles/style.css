@@ -572,7 +572,6 @@ main .main-img {
 
 .roadmap {
   margin-top: 118px;
-  overflow: hidden;
 }
 
 .roadmap__bg {
@@ -729,8 +728,42 @@ main .main-img {
 }
 
 .roadmap .card-purple::after {
-  top: -19%;
+  top: -28%;
   left: -80%;
+}
+
+.partners {
+  width: 100%;
+  max-width: 1160px;
+  margin-left: 40px;
+  margin-top: 288px;
+}
+
+.partners__title {
+  text-align: center;
+  font-family: "Dm Mono";
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8dfd1b;
+}
+
+.partners-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partners-item {
+  margin-top: 60px;
+  width: 322px;
+  height: 30px;
 }
 
 body {
